@@ -1,6 +1,6 @@
 // Import Express and user routes, create an instance of Express
-const express = require('express');
-const routes = require('./routes/users.js');
+const express = require("express");
+const routes = require("./routes/users.js");
 const app = express();
 const PORT = 5000;
 
@@ -8,5 +8,5 @@ const PORT = 5000;
 app.use(express.json());
 app.use("/user", routes);
 
-// Start the server and log a message when it's running
+// Start the server and log a message when it's runninggs
 app.listen(PORT, () => console.log("Server is running at port " + PORT));
