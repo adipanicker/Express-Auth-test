@@ -8,5 +8,5 @@ const PORT = 5000;
 app.use(express.json());
 app.use("/user", routes);
 
-// Start the server and log a message when it's runninggs
+// Start the server and log a message when it's runnin
 app.listen(PORT, () => console.log("Server is running at port " + PORT));
